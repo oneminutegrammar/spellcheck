@@ -1,0 +1,60 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #4b0082; /* Indigo purple shade */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #4b0082; /* Same purple */
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    textarea {
+      width: 100%;
+      max-width: 600px;
+      height: 150px;
+      font-size: 1.1rem;
+      padding: 15px;
+      border: 2px solid #4b0082;
+      border-radius: 8px;
+      resize: vertical;
+      box-sizing: border-box;
+      color: #4b0082;
+      background: #fff;
+    }
+    button {
+      margin-top: 15px;
+      background-color: #4b0082;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 25px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      max-width: 600px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #3a006b; /* Darker purple on hover */
+    }
+    #result {
+      margin-top: 20px;
+      max-width: 600px;
+      width: 100%;
+      background: #eae6f7;
+      border: 1px solid #4b0082;
+      border-radius: 8px;
+      padding: 15px;
+      color: #4b0082;
+      min-height: 50px;
+      white-space: pre-wrap;
+      font-size: 1rem;
+    }
