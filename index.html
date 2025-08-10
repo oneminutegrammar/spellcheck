@@ -4,6 +4,7 @@
   <title>Spellcheck Tool</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h2>Дүрмийн алдаа шалгагч/Grammar checker</h2>
   <h4>Өгүүлбэрээ том үсгээр эхлүүлэхээ мартуузай 😊</h4>
@@ -11,7 +12,18 @@
   <br />
   <button onclick="checkSpelling()">шалгах/check</button>
   <div id="result"></div>
+  <div id="confetti-container" style="position: fixed; pointer-events: none; top: 0; left: 0; width: 100vw; height: 100vh; overflow: visible; z-index: 9999;"></div>
+
 
   <script src="app.js"></script>
+  
+
+  <audio id="ding" src="ding.mp3" preload="auto"></audio>
+
 </body>
+<footer id="footer">
+  OneMinuteGrammar &nbsp;|&nbsp; 
+  <a href="https://www.instagram.com/OneMinuteGrammar_101" target="_blank" rel="noopener noreferrer">Instagram</a>
+</footer>
+
 </html>
