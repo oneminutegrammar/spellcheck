@@ -28,7 +28,7 @@ async function checkSpelling() {
   const data = await response.json();
 
   if (data.matches.length === 0) {
-    resultDiv.innerHTML = "✅";
+    resultDiv.innerHTML = "✅ Correct!";
     launchConfetti(); // trigger confetti celebration here
     playSuccessSound();  // Play dopamine sound here
   } else {
